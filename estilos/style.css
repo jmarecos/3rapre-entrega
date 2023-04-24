@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+.body{
+    overflow-x: hidden;
+}
+.navbar-nav:nth-child(1) a{
+    color: black;
+}
+.navbar-nav a:hover{
+    transform: scale(1.2);
+}
+   
+.logo{
+    width: 90px;
+}
+.navbar .navbar-nav:nth-child(1) a .logo {
+  width: 90px;
+}
+.btn-checkout {
+    
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline;
+    padding: 10px;
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+
+.btn-checkout img {
+    width: 60px;
+}
+
+.btn-checkout:hover {
+    
+    transition: 0.17s ease-in;
+}
+
+.btn-checkout:active {
+    transition: 0.3s ease-out;
+    filter: grayscale(100%)
+}
+
+.piedepagina {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .piedepagina .fa-brands {
+    text-decoration: none;
+    font-size: 28px;
+    padding: 5px;
+    width: 50px;
+    background-color: gold;
+    text-align: center;
+    color: grey;
+    line-height: 30px;
+    border-radius: 30%;
+  }
+  .piedepagina .boton1:hover {
+    transform: scale(1.1);
+  }
